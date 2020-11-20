@@ -34,6 +34,7 @@
     .logo {
         font-size: 35px;
         line-height: 84px;
+        font-weight: 100;
         color: white;
     }
     nav {
@@ -207,6 +208,7 @@
     }
     .container-long-text p {
         font-size: 18px;
+        line-height: 28px;
         text-align: left;
         margin-bottom: 48px;
     }
@@ -288,11 +290,11 @@
     .footer-logo {
         display: inline-block;
         font-size: 36px;
-        font-weight: bold;
+        font-weight: 100;
         margin: 0 24px 16px 0;
     }
     .footer-text-wrapper p {
         display: inline-block;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 400;
     }

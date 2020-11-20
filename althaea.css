@@ -34,6 +34,7 @@
     .logo {
         font-size: 35px;
         line-height: 84px;
+        font-weight: 100;
         color: white;
     }
     nav {
@@ -121,7 +122,7 @@
 
     .section-main-title span {
         display: inline-block;
-        background-color: rgb(150,150,255);
+        background-color: rgb(255,149,149);
         color: white;
         font-size: 22px;
         margin-bottom: 32px;
@@ -143,7 +144,7 @@
         padding-right: 48px;
         max-width: 1128px;
         height: 400px;
-        background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url("https://smart.science.go.kr/k3i/scienceSubject/cmm/imageView.action?file_sid=3283");
+        background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url("https://post-phinf.pstatic.net/MjAxNzA3MThfMzQg/MDAxNTAwMzg2OTIxNjE5.6YV5BzyjoX3wiBG86d5pLdMOIukK3L6pVBzKijfRj58g.1cmBdYJxlevE48TfJGJYP5DiKZSufocpd637X6SuQosg.JPEG/%EC%82%AC%EC%A7%842.jpg?type=w1200");
         background-size: cover;
         background-position: center; 
         text-align: right;
@@ -156,7 +157,7 @@
     }
     @media (max-width: 767px) {
         .section-explain-card {
-            background-image: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url("https://smart.science.go.kr/k3i/scienceSubject/cmm/imageView.action?file_sid=3283");
+            background-image: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url("https://post-phinf.pstatic.net/MjAxNzA3MThfMzQg/MDAxNTAwMzg2OTIxNjE5.6YV5BzyjoX3wiBG86d5pLdMOIukK3L6pVBzKijfRj58g.1cmBdYJxlevE48TfJGJYP5DiKZSufocpd637X6SuQosg.JPEG/%EC%82%AC%EC%A7%842.jpg?type=w1200");
         }
         
     }
@@ -176,7 +177,8 @@
     }
     .container-explain-card p {
         font-size: 18px;
-        color: rgb(150,150,255);
+        font-weight: 400;
+        color: rgb(255,19,19);
         margin-bottom: 64px;
     }
     .explain-small-text p {
@@ -207,6 +209,7 @@
     }
     .container-long-text p {
         font-size: 18px;
+        line-height: 28px;
         text-align: left;
         margin-bottom: 48px;
     }
@@ -238,13 +241,13 @@
     }
     /* 대표 이미지 넣는 곳 */
     .first {
-        background-image: url("https://lh3.googleusercontent.com/proxy/zvrPe8WcGtaKDoidUkYbq-QPkhiYWPDXSa33_BGjBioPzc7xQzr64vKNJtAHnlsm7xwm3WUQLqPZXfXG3yM-JbXv");
+        background-image: url("./images/althaea1.jpg");
     }
     .second {
-        background-image: url("https://lh3.googleusercontent.com/proxy/hwygVyFxGmkSfSnaHA8MjBalyb90b-7ti5CBkIIXcrRU75P1WhX0ov-RXJ2-rzlnrhkCMqbWCHva0-q9nBqnZEkrVQqNWDF3fLfhdaVU6mtG7hXzxQ");
+        background-image: url("./images/althaea2.jpg");
     }
     .third {
-        background-image: url("https://blog.kakaocdn.net/dn/bkfpRg/btqEPeTwUyN/IuUE3pmWVbqIhNnrh1D5d0/img.jpg");
+        background-image: url("./images/althaea3.jpg");
     }
     @media (max-width: 767px) {
         .card-wrapper {

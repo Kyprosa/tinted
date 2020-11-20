@@ -4,7 +4,7 @@
     box-sizing: border-box;
     }
     
-    * { font-family: 'Rotobo', sans-serif; }
+    * { font-family: 'Roboto', sans-serif; }
     :root {
         --main-color: #F7CD37;
         --emphasis-color: #4CCC90;
@@ -34,6 +34,7 @@
     .logo {
         font-size: 35px;
         line-height: 84px;
+        font-weight: 100;
         color: white;
     }
     nav {
@@ -98,7 +99,7 @@
             opacity: 0.3;
         }
         .hamburger {
-            stroke: white;
+            stroke: var(--emphasis-color);
             width: 36px;
             height: 36px;
         }
@@ -121,7 +122,7 @@
 
     .section-main-title span {
         display: inline-block;
-        background-color: rgb(150,150,255);
+        background-color: rgb(255,150,150);
         color: white;
         font-size: 22px;
         margin-bottom: 32px;
@@ -143,7 +144,7 @@
         padding-right: 48px;
         max-width: 1128px;
         height: 400px;
-        background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url("https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile2.uf.tistory.com%2Fimage%2F1308290F4A2FAFA28F9A50");
+        background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url("images/gardenia4.jpg");
         background-size: cover;
         background-position: center; 
         text-align: right;
@@ -156,7 +157,7 @@
     }
     @media (max-width: 767px) {
         .section-explain-card {
-            background-image: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url("https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile2.uf.tistory.com%2Fimage%2F1308290F4A2FAFA28F9A50");
+            background-image: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url("images/gardenia4.jpg");
         }
         
     }
@@ -176,7 +177,7 @@
     }
     .container-explain-card p {
         font-size: 18px;
-        color: rgb(150,150,255);
+        color: rgb(255,150,150);
         margin-bottom: 64px;
     }
     .explain-small-text p {
@@ -207,6 +208,7 @@
     }
     .container-long-text p {
         font-size: 18px;
+        line-height: 28px;
         text-align: left;
         margin-bottom: 48px;
     }
@@ -238,13 +240,13 @@
     }
     /* 대표 이미지 넣는 곳 */
     .first {
-        background-image: url("https://t1.daumcdn.net/cfile/blog/2125C93956B5464C2C");
+        background-image: url("images/gardenia1.jpg");
     }
     .second {
-        background-image: url("https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1608290F4A2FAFA492");
+        background-image: url("images/gardenia2.jpg");
     }
     .third {
-        background-image: url("https://pbs.twimg.com/media/CjlNTdBUYAIbhMS.jpg");
+        background-image: url("images/gardenia3.jpg");
     }
     @media (max-width: 767px) {
         .card-wrapper {
@@ -288,11 +290,11 @@
     .footer-logo {
         display: inline-block;
         font-size: 36px;
-        font-weight: bold;
+        font-weight: 100;
         margin: 0 24px 16px 0;
     }
     .footer-text-wrapper p {
         display: inline-block;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 400;
     }

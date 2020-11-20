@@ -34,6 +34,7 @@
     .logo {
         font-size: 35px;
         line-height: 84px;
+        font-weight: 100;
         color: white;
     }
     nav {
@@ -207,6 +208,7 @@
     }
     .container-long-text p {
         font-size: 18px;
+        line-height: 28px;
         text-align: left;
         margin-bottom: 48px;
     }
@@ -244,7 +246,7 @@
         background-image: url("https://www.dailimseed.co.kr/modules/shop/files/thumb/2018/05/18/bf06fbd4231487a20bd3b00b86e7a731120618.jpg");
     }
     .third {
-        background-image: url("https://image.auction.co.kr/itemimage/1b/9d/f1/1b9df145a6.jpg");
+        background-image: url("https://image.ajunews.com/content/image/2014/10/21/20141021124254643871.jpg");
     }
     @media (max-width: 767px) {
         .card-wrapper {
@@ -288,11 +290,11 @@
     .footer-logo {
         display: inline-block;
         font-size: 36px;
-        font-weight: bold;
+        font-weight: 100;
         margin: 0 24px 16px 0;
     }
     .footer-text-wrapper p {
         display: inline-block;
         font-size: 14px;
-        font-weight: lighter;
+        font-weight: 400;
     }
