@@ -145,6 +145,7 @@
         font-size: 24px;
         font-weight: bold;
         text-decoration: none;
+        color: var(--general-black);
     }
     .select-menu {
         color: var(--emphasis-color);
@@ -245,8 +246,12 @@
         max-width: 1128px;
         margin: 8px auto 0;
     }
+    .title-wrapper h2 {
+        color: var(--general-black);
+    }
     .title-wrapper hr {
         margin: 8px 0 32px;
+        color: var(--general-black);
     }
     .flower-card-wrapper {
         max-width: 1128px;
@@ -263,9 +268,7 @@
         margin-right: 24px;        
     }
     .flower-img img{
-        height: 240px;
-        background-position: center;
-        background-size: cover;
+        width: 100%;
     }
     @media (min-width: 1128px) {
         .flower-card-wrapper .flower-card:nth-of-type(4n){
